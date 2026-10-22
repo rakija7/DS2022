@@ -5,7 +5,7 @@ import logging
 import boto3
 from botocore.exceptions import ClientError, NoCredentialsError
 
-logging.basicConfig(format="%(message)s")
+logging.basicConfig(level = logging.INFO, format="%(message)s")
 # logging.basicConfig(level=logging.INFO, format="%(levelname)s %(asctime)s %(message)s")
 log = logging.getLogger(__name__)
 
